@@ -149,32 +149,32 @@ const Certificates = () => {
   const certificates = {
       certificate1: {
           name: "Responsive Web Design",
-          image: "/public/projects/responsive-web-design-certificate.png",
+          image: "./public/projects/responsive-web-design-certificate.png",
           link: "https://www.freecodecamp.org/certification/ashoktamang/responsive-web-design"
       }, 
       certificate2: {
           name: "JavaScript Algorithms and Data Structures (Beta)", 
-          image: "/public/projects/javascript-algorithms-and-data-structures-beta-certificate.png",  
+          image: "./public/projects/javascript-algorithms-and-data-structures-beta-certificate.png",  
           link: "https://www.freecodecamp.org/certification/ashoktamang/javascript-algorithms-and-data-structures-v8"
       }, 
       certificate3: {
           name: "Front End Development Libraries",
-          image: "/public/projects/front-end-development-libraries-certificate.png", 
+          image: "./public/projects/front-end-development-libraries-certificate.png", 
           link: "https://www.freecodecamp.org/certification/ashoktamang/front-end-development-libraries"
       }, 
       certificate4: {
           name: "Relational Database",
-          image: "/public/projects/relational-database-certificate.png", 
+          image: "./public/projects/relational-database-certificate.png", 
           link: "https://www.freecodecamp.org/certification/ashoktamang/relational-database-v8"
       }, 
       certificate5: {
           name: "Back End Development and APIs", 
-          image: "/public/projects/back-end-development-and-apis-certificate.png", 
+          image: "./public/projects/back-end-development-and-apis-certificate.png", 
           link: "https://www.freecodecamp.org/certification/ashoktamang/back-end-development-and-apis"
       }, 
       certificate6: {
           name: "Foundational C# with Microsoft", 
-          image: "/public/projects/foundational-csharp-with-microsoft-certificate.png", 
+          image: "./public/projects/foundational-csharp-with-microsoft-certificate.png", 
           link: "https://www.freecodecamp.org/certification/ashoktamang/foundational-c-sharp-with-microsoft"
       }
   }
@@ -271,31 +271,31 @@ const Projects = ({ isAtProjects }) => {
       project1: {
           name: "Calculator",
           tools: ["JavaScript", "React", "CSS", "HTML", "Babel"], 
-          image: "/public/projects/javascript-calculator.png",
+          image: "./public/projects/javascript-calculator.png",
           link: "https://codepen.io/atamang1/pen/BaXjmNm"
       }, 
       project2: {
           name: "25+5 Clock",
           tools: ["JavaScript", "React", "CSS", "HTML", "Babel"], 
-          image: "/public/projects/timer.png", 
+          image: "./public/projects/timer.png", 
           link: "https://codepen.io/atamang1/pen/vYoGwNb"
       },
       project3: {
           name: "Markdown Preview ",
           tools: ["JavaScript", "React", "CSS", "HTML", "Babel"], 
-          image: "/public/projects/markdown-preview.png", 
+          image: "./public/projects/markdown-preview.png", 
           link: "https://codepen.io/atamang1/pen/abebbNq"
       }, 
       project4: {
         name: "Drum Machine ",
         tools: ["JavaScript", "React", "CSS", "HTML", "Babel"], 
-        image: "/public/projects/drum-machine.png", 
+        image: "./public/projects/drum-machine.png", 
         link: "https://codepen.io/atamang1/pen/rNXVXxz"
       }, 
       project5: {
         name: "Random Quote Machine ",
         tools: ["JavaScript", "React", "CSS", "HTML", "Babel"], 
-        image: "/public/projects/random-quote-machine.jpg", 
+        image: "./public/projects/random-quote-machine.jpg", 
         link: "https://codepen.io/atamang1/pen/XWLvPzW"
       }
   }
